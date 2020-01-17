@@ -2,7 +2,7 @@ import React from "react";
 const Button = props => {
   return (
     <button
-      //     onClick={() => setTigersScore(tigersScore + 7)}
+      onClick={() => props.setState(props.score + 1)}
       className="awayButtons__touchdown"
     >
       {props.home}
